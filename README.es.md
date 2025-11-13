@@ -24,6 +24,45 @@ ollama run llama3
 
 ### Instalación de Ollama
 
+Ollama es el motor de inteligencia artificial local que utiliza llamael para generar y modificar código.
+
+#### GNU/Linux (Debian, Ubuntu y derivados)
+
+```bash
+curl -fsSL https://ollama.ai/install.sh | sh
+```
+
+Después, asegúrate de que el servicio esté corriendo:
+
+```bash
+ollama serve
+```
+
+Y prueba el modelo base:
+
+```bash
+ollama run llama3
+```
+
+#### MacOS
+
+```bash
+brew install ollama/tap/ollama
+ollama run llama3
+```
+
+#### Windows
+
+Descarga el instalador desde [https://ollama.ai/download](https://ollama.ai/download)
+Instálalo y abre una terminal nueva.
+
+Ejecuta:
+
+```bash
+ollama run llama3
+```
+
+Una vez que Ollama esté instalado y ejecutando el modelo llama3, ya puedes usar todos los comandos de `llamael`.
 
 ## Uso básico
 
