@@ -1,0 +1,11 @@
+[project]
+name = "llamael"
+version = "0.1.0"
+description = "Programming assistant on the terminal with Ollama and Click"
+authors = [{ name = "hackdevmariana" }]
+readme = "README.es.md"
+requires-python = ">=3.8"
+dependencies = ["click>=8.1.7"]
+
+[project.scripts]
+llamael = "llamael.cli:cli"
